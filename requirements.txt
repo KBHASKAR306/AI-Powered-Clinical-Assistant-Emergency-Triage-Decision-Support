@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+langgraph>=0.2
+anthropic>=0.34
+streamlit>=1.35
+pytest>=8.0
+httpx>=0.27

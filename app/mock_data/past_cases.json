@@ -1,0 +1,15 @@
+{
+  "symptom_case_log": {
+    "difficulty in breathing": {
+      "total_cases": 14,
+      "flagged_slow_response_cases": 4,
+      "note": "4 of the last 14 cases with this symptom were flagged for slow triage response in the last audit cycle."
+    },
+    "chest discomfort": {
+      "total_cases": 9,
+      "flagged_slow_response_cases": 1,
+      "note": "Triage response time for this symptom is within target."
+    }
+  },
+  "slow_response_threshold": 0.25
+}

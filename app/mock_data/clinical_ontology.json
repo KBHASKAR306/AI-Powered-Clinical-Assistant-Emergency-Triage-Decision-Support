@@ -1,0 +1,28 @@
+{
+  "symptom_concepts": {
+    "chest discomfort": {"concept_id": "SCT-29857009", "label": "Chest pain (finding)"},
+    "chest pain": {"concept_id": "SCT-29857009", "label": "Chest pain (finding)"},
+    "shortness of breath": {"concept_id": "SCT-267036007", "label": "Dyspnea (finding)"},
+    "wheezing": {"concept_id": "SCT-56018004", "label": "Wheezing (finding)"},
+    "palpitations": {"concept_id": "SCT-80313002", "label": "Palpitations (finding)"},
+    "dizziness": {"concept_id": "SCT-404640003", "label": "Dizziness (finding)"},
+    "cold sweat": {"concept_id": "SCT-415690000", "label": "Diaphoresis (finding)"},
+    "sore throat": {"concept_id": "SCT-267102003", "label": "Sore throat (finding)"},
+    "cough": {"concept_id": "SCT-49727002", "label": "Cough (finding)"},
+    "fever": {"concept_id": "SCT-386661006", "label": "Fever (finding)"}
+  },
+  "concept_to_condition": {
+    "SCT-29857009": ["possible acute coronary syndrome"],
+    "SCT-267036007": ["possible acute coronary syndrome", "possible asthma exacerbation", "possible atrial fibrillation with rapid rate"],
+    "SCT-56018004": ["possible asthma exacerbation"],
+    "SCT-80313002": ["possible atrial fibrillation with rapid rate"],
+    "SCT-415690000": ["possible acute coronary syndrome"]
+  },
+  "recent_updates": [
+    {
+      "date": "2026-07-01",
+      "note": "Added expanded criteria linking diaphoresis + dyspnea to elevated ACS risk scoring (synthetic update for ReWOO demo).",
+      "affected_concept": "SCT-415690000"
+    }
+  ]
+}

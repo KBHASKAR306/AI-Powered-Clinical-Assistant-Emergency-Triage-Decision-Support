@@ -6,7 +6,7 @@ the six patterns from the source document is built as its own state graph, match
 the flowcharts in the document step-for-step, and exposed through a FastAPI
 service plus a Streamlit UI for interactive testing.
 
-> ⚠️ **Educational / portfolio demo only.** All patient records, guidelines,
+> ⚠️ All patient records, guidelines,
 > and ontology mappings are synthetic (`app/mock_data/*.json`). This is **not
 > a medical device**, has not been validated clinically, and must never be
 > used for real triage, diagnosis, or treatment decisions.

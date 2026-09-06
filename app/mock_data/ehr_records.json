@@ -1,0 +1,36 @@
+{
+  "P-1001": {
+    "name": "Synthetic Patient A",
+    "age": 58,
+    "sex": "M",
+    "history": ["hypertension", "type 2 diabetes"],
+    "medications": ["metformin", "lisinopril"],
+    "recent_vitals": {"bp": "148/92", "hr": 102, "spo2": 94, "temp_c": 37.1},
+    "past_visits": [
+      {"date": "2026-03-14", "reason": "chest discomfort", "outcome": "referred for ECG, non-cardiac"},
+      {"date": "2025-11-02", "reason": "routine checkup", "outcome": "normal"}
+    ]
+  },
+  "P-1002": {
+    "name": "Synthetic Patient B",
+    "age": 34,
+    "sex": "F",
+    "history": ["asthma"],
+    "medications": ["albuterol inhaler"],
+    "recent_vitals": {"bp": "118/76", "hr": 88, "spo2": 97, "temp_c": 36.8},
+    "past_visits": [
+      {"date": "2026-06-20", "reason": "shortness of breath", "outcome": "asthma exacerbation, treated"}
+    ]
+  },
+  "P-1003": {
+    "name": "Synthetic Patient C",
+    "age": 71,
+    "sex": "F",
+    "history": ["coronary artery disease", "atrial fibrillation"],
+    "medications": ["apixaban", "metoprolol"],
+    "recent_vitals": {"bp": "160/95", "hr": 115, "spo2": 91, "temp_c": 37.4},
+    "past_visits": [
+      {"date": "2026-01-09", "reason": "palpitations", "outcome": "AFib rate control adjusted"}
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "condition_rules": [
+    {
+      "condition": "possible acute coronary syndrome",
+      "trigger_symptoms": ["chest discomfort", "chest pain", "shortness of breath", "left arm pain", "cold sweat"],
+      "min_matches": 2,
+      "risk_level": "critical",
+      "recommended_tests": ["ECG", "troponin"],
+      "recommended_action": "Escalate immediately to emergency services and notify clinician.",
+      "guideline_ref": "AHA/ACC Chest Pain Guideline (synthetic reference for demo)"
+    },
+    {
+      "condition": "possible asthma exacerbation",
+      "trigger_symptoms": ["wheezing", "shortness of breath", "cough", "chest tightness"],
+      "min_matches": 2,
+      "risk_level": "moderate",
+      "recommended_tests": ["peak flow", "spo2 monitoring"],
+      "recommended_action": "Administer bronchodilator per protocol, monitor SpO2, escalate if no improvement in 15 minutes.",
+      "guideline_ref": "GINA Asthma Management Guideline (synthetic reference for demo)"
+    },
+    {
+      "condition": "possible atrial fibrillation with rapid rate",
+      "trigger_symptoms": ["palpitations", "dizziness", "shortness of breath", "irregular heartbeat"],
+      "min_matches": 2,
+      "risk_level": "high",
+      "recommended_tests": ["ECG", "electrolytes"],
+      "recommended_action": "Obtain ECG, check heart rate control, escalate if rate uncontrolled or symptomatic hypotension.",
+      "guideline_ref": "ESC AFib Guideline (synthetic reference for demo)"
+    },
+    {
+      "condition": "likely viral upper respiratory infection",
+      "trigger_symptoms": ["sore throat", "runny nose", "mild cough", "low grade fever"],
+      "min_matches": 2,
+      "risk_level": "low",
+      "recommended_tests": [],
+      "recommended_action": "Symptomatic care advice, routine follow-up if symptoms persist beyond 7 days.",
+      "guideline_ref": "Primary Care URI Guideline (synthetic reference for demo)"
+    }
+  ]
+}
